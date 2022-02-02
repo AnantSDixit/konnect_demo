@@ -61,7 +61,7 @@ INSTALLED_APPS = [
     'tags',
     'helpers',
     #'plan',
-    #'Election',
+    'Election',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'

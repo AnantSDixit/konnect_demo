@@ -24,4 +24,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/accounts/', include('accounts.api.urls')),
     path('api/konnect/', include('konnect.api.urls')),
+    path('api/Election/', include('Election.api.urls')),
+    
 ]
